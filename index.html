@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+<body class="position_main">
+      <nav class="nav">
+        <div class="nav_main"><img src="/img/setting 1.png"
+          alt=""
+          class="img"/><h1 class="h1">DASHBOARD</h1><p class="p">v.01</p></div>
+        <ul class="ul">
+          <li class="li"><img src="/img/discount-shape 1.png"
+            alt=""
+            class="img1"/>
+            <Link to='/' class="link"><p class="text">Dashboard</p>
+              
+            </Link>
+          </li>
+          <li class="li"><img src="/img/3d-square 1.png"
+            alt=""
+            class="img1"/>
+            <Link to='/' class="link"><p class="text">Product</p></Link><span class="position"><img src="/img/chevron-right 2.png"
+              alt=""
+              class="img2"/></span>
+          </li>
+          <li class="li"><img src="/img/key-square.png"
+            alt=""
+            class="img1"/>
+            <Link to='/' class="link"><p class="text">Income</p></Link><span class="position"><img src="/img/chevron-right 2.png"
+            alt=""
+            class="img2"/></span>
+          </li>
+          <li class="li"><img src="/img/wallet-money 2.png"
+            alt=""
+            class="img1"/>
+            <Link to='/' class="link"><p class="text">Promote</p></Link><span class="position"><img src="/img/chevron-right 2.png"
+            alt=""
+            class="img2"/></span>
+          </li>
+          <li class="li"><img src="/img/message-question 1.png"
+            alt=""
+            class="img1"/>
+            <Link to='/' class="link"><p class="text">Help</p></Link><span class="position"><img src="/img/chevron-right 2.png"
+            alt=""
+            class="img2"/></span>
+          </li>
+        </ul>
+        <div class="people"><img src="/img/Ellipse 8.png"
+          alt=""
+          class="img2"/><span class="position_text"><h1 class="text_name" >Evano</h1><p class="text_job">Project Manager</p></span></div>
+      </nav>
+      <div class="main"><img src="/img/Hello Evano 👋🏼,.png"
+        alt=""
+        class="img3"/>
+      <div class="table">
+        <div class="header_table"><span class="name_table_position"><p class="text_name_table">All Customers</p><p class="text_name_table2">Active Members</p></span>
+          <form class="search-form">
+          <input id="myInput" type="search" value="" placeholder="Search" class="search-input" onkeyup="myFunction()">
+          <button type="submit" class="search-button">
+            <svg class="search-button">
+              <!-- <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use> -->
+              <img src="/img/search 1.png"
+          alt=""
+          class="img2"/>
+            </svg>
+          </button></div>
+          <article class="content">
+            <table id="myTable">
+              <thead>
+                <tr>
+                  <td class="empty"></td>
+                  <td>Customer Name</td>
+                  <td>Company</td>
+                  <td>Phone Number</td>
+                  <td>Email</td>
+                  <td>Country</td>
+                  <td>Status</td>
+                  <td class="empty"></td>
+                </tr>
+              </thead>
+              <tbody id="tbody">
+              </tbody>
+            </table>
+            <div class="footer_table">
+              <p class="footer_text">Showing data 1 to 8 of 256K entries</p>
+            <div  class="container_pagination">
+              <span class="pagination__arrow_prev"><</span>
+              <div class="pagination"></div>
+              <span class="pagination__arrow_next">></span>
+            </div>
+          </div>
+            </div>
+          </article>
+      </div>
+      </div>
+      <script src="./index.js"></script>
+</body>
+</html>
